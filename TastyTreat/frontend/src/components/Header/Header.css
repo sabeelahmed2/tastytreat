@@ -1,0 +1,72 @@
+.header{
+    height: 34vw;
+    margin: 30px auto;
+    background: url('../../assets/Home.jpg') no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    border-radius: 20px;
+    
+    position: relative;
+}
+
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    gap: 1.5vw;
+    max-width: 70%;
+    bottom: 10%;
+    left: 6vw;
+    border-radius: 10px;
+}
+
+.header-contents h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw, 22px);
+    animation: fadeIn 1s;
+}
+
+.header-contents p{
+    color: white;
+    font-size: 1vw;
+    animation: fadeIn 2s;
+}
+
+.header-contents button{
+    margin-right: 30vw;
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2vw;
+    background-color: white;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    animation: fadeIn 3s;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-contents button:hover {
+    background-color: #f0a500;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width:1050px) {
+    .header-contents{
+        max-width: 45%;
+    }
+}
+
+@media (max-width:750px) {
+    .header-contents{
+        max-width: 65%;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}
