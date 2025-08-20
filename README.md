@@ -11,7 +11,7 @@ TastyTreat is a **full-stack web application** designed to simplify the food ord
 - Browse categorized food menu  
 - Add items to cart and place orders  
 - View and track order status  
-- Online payment via **Stripe integration**  
+- Online payment via Razorpay  
 - Order history and receipts  
 
 ### 🛠️ Admin Features  
@@ -38,7 +38,7 @@ TastyTreat is a **full-stack web application** designed to simplify the food ord
 - MongoDB (NoSQL document database)  
 
 **Payment Gateway:**  
-- Stripe (Secure online payment processing)  
+- Razorpay (Secure online payment processing)  
 
 ---
 
